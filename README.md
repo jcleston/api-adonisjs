@@ -16,6 +16,7 @@
 * [Instalação](#instalação)
 * [Desenvolvimento](#desenvolvimento)
   * [Model](#model)
+  * [Migration](#migration)
 
 
 <!--te-->
@@ -68,3 +69,10 @@ Para criar um model
 ```shell
 $ node ace make:model Moment -m
 ```
+
+## Migration
+Para rodar a migration
+```shell
+$ node ace migration:run
+```
+
