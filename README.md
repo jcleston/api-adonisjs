@@ -14,6 +14,7 @@
 ## Menu Geral
 <!--ts-->
 * [Instalação](#instalação)
+  * [Comandos](#comandos)
 * [Desenvolvimento](#desenvolvimento)
   * [Model](#model)
   * [Migration](#migration)
@@ -60,6 +61,15 @@ Route.group(() => {
     return { hello: 'world' }
   })
 }).prefix('/api')
+```
+## Comandos
+Para criar um model
+```shell
+Para ver todas as opções
+$ node ace
+
+Para ver as rotas disponiveis
+$ node ace list:routes
 ```
 
 <br /><br />
