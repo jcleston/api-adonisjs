@@ -17,6 +17,7 @@
 * [Desenvolvimento](#desenvolvimento)
   * [Model](#model)
   * [Migration](#migration)
+  * [Controller](#controller)
 
 
 <!--te-->
@@ -62,8 +63,10 @@ Route.group(() => {
 ```
 
 <br /><br />
+
 ## Desenvolvimento
 Iremos utilizar o padrão MVC
+
 ## Model
 Para criar um model
 ```shell
@@ -76,3 +79,8 @@ Para rodar a migration
 $ node ace migration:run
 ```
 
+## Controller
+Para criar um controller
+```shell
+$ node ace make:controller Moment
+```
