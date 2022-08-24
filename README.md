@@ -13,7 +13,9 @@
 
 ## Menu Geral
 <!--ts-->
- * [Instalação](#instalação)
+* [Instalação](#instalação)
+* [Desenvolvimento](#desenvolvimento)
+  * [Model](#model)
 
 
 <!--te-->
@@ -43,4 +45,26 @@ Instalando e configurando o lucid
 ```shell
 $ npm i @adonisjs/lucid
 $ node ace configure @adonisjs/lucid
+```
+Editar o arquivo cors.ts
+```shell
+enabled: (request) => request.url().startsWith('/api'),
+```
+
+Editar o arquivo routes.ts
+```shell
+Route.group(() => {
+  Route.get('/', async () => {
+    return { hello: 'world' }
+  })
+}).prefix('/api')
+```
+
+<br /><br />
+## Desenvolvimento
+Iremos utilizar o padrão MVC
+## Model
+Para criar um model
+```shell
+$ node ace make:model Moment -m
 ```
