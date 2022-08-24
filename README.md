@@ -33,3 +33,13 @@ Instalando o adonisjs
 ```shell
 $ npm init adonis-ts-app@latest api-adonisjs
 ```
+
+Iniciando o server
+```shell
+$ node ace serve --watch
+```
+
+Instalando e configurando o lucid
+```shell
+$ npm i @adonisjs/lucid
+```
