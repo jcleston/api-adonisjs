@@ -62,6 +62,13 @@ Route.group(() => {
   })
 }).prefix('/api')
 ```
+
+Instalando o uuid
+
+```shell
+$ npm i uuid
+```
+
 ## Comandos
 Para criar um model
 ```shell
