@@ -42,4 +42,5 @@ $ node ace serve --watch
 Instalando e configurando o lucid
 ```shell
 $ npm i @adonisjs/lucid
+$ node ace configure @adonisjs/lucid
 ```
