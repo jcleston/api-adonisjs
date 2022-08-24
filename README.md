@@ -27,3 +27,9 @@ $ sudo npm install -g n
 $ sudo n latest
 $ sudo n stable
 ```
+
+Instalando o adonisjs
+
+```shell
+$ npm init adonis-ts-app@latest api-adonisjs
+```
