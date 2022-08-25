@@ -70,7 +70,6 @@ $ npm i uuid
 ```
 
 ## Comandos
-Para criar um model
 ```shell
 Para ver todas as opções
 $ node ace
@@ -88,6 +87,7 @@ Iremos utilizar o padrão MVC
 Para criar um model
 ```shell
 $ node ace make:model Moment -m
+$ node ace make:model Comment -m
 ```
 
 ## Migration
