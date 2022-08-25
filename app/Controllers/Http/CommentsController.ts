@@ -2,10 +2,9 @@ import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
 
 import Moment from 'App/Models/Moment'
 import Comment from 'App/Models/Comment'
-import { Response } from '@adonisjs/core/build/standalone'
 
 export default class CommentsController {
-  public async store({ request, params, response }) {
+  public async store({ request, params, response }: HttpContextContract) {
     const body = request.body()
     const momentId = params.momentId
 
