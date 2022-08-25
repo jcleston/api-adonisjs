@@ -100,4 +100,5 @@ $ node ace migration:run
 Para criar um controller
 ```shell
 $ node ace make:controller Moment
+$ node ace make:controller Comment
 ```
